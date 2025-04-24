@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+df = pd.read_excel("/content/UFC Fight Statistics (July 2016 - Nov 2024) (version 1).xlsx")
 # la precisión de golpes es factor clave para la victoria, el peleador el cual conecta el 50% de sus ataques(golpes y patadas) tiene mayor probabilidad de ganar una pelea, se comprobará la tasa de victorias de peleadores con precisión alta vs baja
 # Calcular la precisión de golpes para cada peleador
 for fighter in ["F1", "F2"]:
